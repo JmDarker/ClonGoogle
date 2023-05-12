@@ -23,19 +23,42 @@ header svg {
 
 header a {
     text-decoration: none;
-    
+    color: white;
+
 }
 
 header a img {
     width: 50px;
     height: 5s0px;
-    
+
 }
 
 section {
     text-align: center;
 }
 
+section svg {
+    width: 25px;
+    height: 25px;
+}
+
 footer {
     text-align: center;
+    background: black;
+    color: white;
+    display: block;
+}
+
+.lugar {
+    text-align: left;
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
