@@ -13,40 +13,95 @@ body {
 
 header {
     text-align: right;
+    margin: 5px;
+    padding: 10px;  
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contenido-header {
+    padding: 0 5px;
 }
 
 header svg {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 header a {
-   text-decoration: none;
+    text-decoration: none;
     color: white;
 
 }
 
 header a img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.busqueda {
+    display: block;
 }
 
 .iconos-busqueda {
     display: flex;
-    justify-content: center;
-    height: 30px;
+    background-color: #1a0e0e;
     align-items: center;
-    border: red solid 1px;
+    border-radius: 20px;
+    width: 500px;
+    justify-content: center;
+    height: 50px;
+}
+
+.iconos-busqueda:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.66);
+}
+
+.iconos-busqueda form input {
+    width: 400px;
+    border: none;
+    background-color: #1a0e0e;
+    outline: none;
+    color: white;
+    font-size: 1em;
 }
 
 section svg {
     width: 25px;
     height: 25px;
+}
+
+.botones{
+    margin: 10px;
+}
+
+.botones form input {
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    border: solid 1px #202124;
+    border-radius: 10px;
+}
+
+.botones form input:hover {
+    border: solid 1px white;
+    cursor: pointer;
 }
 
 footer {
@@ -58,6 +113,8 @@ footer {
 
 .lugar {
     text-align: left;
+    padding: 5px;
+    border-bottom: solid 1px white;
 }
 
 .informacion {
