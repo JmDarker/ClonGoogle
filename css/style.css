@@ -63,7 +63,7 @@ section {
     display: flex;
     background-color: #1a0e0e;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 500px;
     justify-content: center;
     height: 50px;
@@ -113,16 +113,25 @@ footer {
 
 .lugar {
     text-align: left;
-    padding: 5px;
+    padding: 10px;
     border-bottom: solid 1px white;
 }
 
 .informacion {
     display: flex;
     justify-content: space-between;
+    padding: 10px
 }
 
 footer a {
     text-decoration: none;
     color: white;
+    padding: 0 10px;
+}
+
+@media (max-width: 720px) {
+    
+    .informacion{
+        flex-direction: column;
+    }
 }
