@@ -9,6 +9,7 @@ body {
     color: white;
     width: 100vw;
     height: 100vh;
+    font-family: 'ROBOTO';
 }
 
 header {
@@ -132,7 +133,7 @@ footer a {
 @media (max-width: 720px) {
 
     .iconos-busqueda {
-        width: 70vw;
+        width: 55vw;
     }
 
     .iconos-busqueda form input {
@@ -140,7 +141,7 @@ footer a {
     }
 
     .logo img {
-        width: 60vw;
+        width: 40vw;
     }
 
     .informacion {
